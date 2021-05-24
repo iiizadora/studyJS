@@ -107,3 +107,34 @@ var res = =n %2 == 0 ? 5 : 9
 
 res vai ser igual a 5
 
+# DOM
+
+Document Object Model
+ele não é possível funcionar no node
+
+
+Árvore DOM (pesquisar mais)
+
+
+## É possivel acessar os elemwntos do Dom por
+
+- Marca
+
+- por ID
+
+- por Nome 
+
+- por Classe
+
+- por Seletor
+
+
+## <strong>Por Marca </strong>
+
+getElementByTagName()
+
+mais usado e recomendado usar querySelector para atualizações novas
+
+div#msg => para uma id
+
+div.msg => para uma classe
