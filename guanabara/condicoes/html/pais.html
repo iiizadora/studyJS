@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Informação de imigrante</h1>
+  Qual é o seu país? <input type="text" name="text" id="text">
+  <input type="button" value="Verificar" onclick="verificar()">
+  <div id="resp"></div>
+
+  <script>
+    function verificar() {
+      var txpais = document.querySelector('input#text')
+      var resp = document.querySelector('div#resp')
+      var pais = txpais.value
+      resp.innerHTML = `<p>Seu país é o <strong>${pais}</strong> .</p>`
+
+      if (pais == 'Brasil') {
+        resp.innerHTML += `Você é Brasileiro!`
+
+      } else {
+        resp.innerHTML += `Você é Estrangeiro!`
+      }
+
+    }
+
+  </script>
+</body>
+
+</html>
