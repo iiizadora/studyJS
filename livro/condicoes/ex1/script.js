@@ -1,12 +1,12 @@
+
+const inNome = document.querySelector("#inNome");
+const inNota1 = document.querySelector("#inNota1");
+const inNota2 = document.querySelector("#inNota2");
+const outMedia = document.querySelector("#outMedia");
+
+const outSituacao = document.querySelector("#outSituacao");
+
 function calcularMedia(){
-
-  const inNome = document.querySelector("#inNome");
-  const inNota1 = document.querySelector("#inNota1");
-  const inNota2 = document.querySelector("#inNota2");
-  const outMedia = document.querySelector("#outMedia");
-
-  const outSituacao = document.querySelector("#outSituacao");
-
 
   const nome = inNome.value;
   const nota1 = Number(inNota1.value);
