@@ -1,0 +1,18 @@
+- Criar formulário (nomedaTarefa)
+- Criar Botão
+- Colocar evento de click no botão, chamando a função "adicionarTarefa" 
+- Adicionar Tarefa
+    -Pegar os valores do input
+    -Montar um objeto com os valores
+    -Converter em string
+    -Gravar
+- "Listar as tarefas"
+- Apagar tarefa
+    -Adicionar botão "remover" em cada item 
+    -Adicionar evento de click no botão chamando a função "removerTarefa" identificando o item clicado
+    -Recuperar lista 
+    -Remover item da lista
+    -Gravar lista alterada
+
+/pesquisar sobre form.preventDefault
+
